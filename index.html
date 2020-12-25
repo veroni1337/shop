@@ -708,8 +708,14 @@
 									1.99 - 4098
 								</span>
 							</div>
-						</div>	
-						<input type="range" min="1.99" max="4098" class="multi-range-the-slider" step="10" value="1.99">
+						</div>
+
+						
+						<div class="slider-container">
+							<span class="bar"><span class="fill"></span></span>
+							<input id="slider" class="slider multi-range-the-slider" type="range" min="0" max="100" value="50">
+						</div>
+						
 					</div>
 					<!-- multi-range-slider -->
 
@@ -1245,5 +1251,20 @@
 		</div>
 		<!-- container-main -->	
 	</div>	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script>
+		var $slider = $("#slider");
+		var $fill = $(".bar .fill");
+
+		function setBar() {
+			$fill.css("width", $slider.val() + "%");
+		}
+
+		$slider.on("input", setBar);
+
+		setBar();
+	</script>
 </body>
 </html>
