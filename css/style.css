@@ -297,6 +297,9 @@ body {
 .filters {
 	margin-left: 36px;
 	margin-top: 51px;
+    max-width: 321px;
+    width: auto;
+    margin-right: 30px;
 }
 
 .multi-range-first-title {
@@ -512,3 +515,149 @@ body {
 	border: 1px solid #6F64F8;
 	border-radius: 8px;
 }
+
+.catalog {
+	display: flex;
+}
+
+.catalog-main-container {
+	margin-top: 39.5px;
+}
+
+.results {
+	display: flex;
+	justify-content: space-between;
+	width: 740px;
+	align-items: center;
+}
+
+.results-buttons {
+	display: flex;
+	align-items: center;
+}
+
+.results-title {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #2C2C2C;
+}
+
+.search-input {
+	padding: 17px 25px 19px 30px;
+    width: 336px;
+    background: #FFFFFF;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0778245);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-image: url(../images/search_icon.svg);
+    background-repeat: no-repeat;
+    background-position: right 30px center;
+    font-weight: 300;
+	font-size: 22px;
+	line-height: 26px;
+	color: #999999;
+    margin-top: 22px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.topmenu > li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.one ul {
+  background: #ECDAD6;
+}
+.one ul a, .three ul a, .two ul a {
+  color: #2C2C2C;
+
+  display: block;
+  padding: 14px 15px;
+  text-decoration: none;
+  outline: none;
+  transition: .5s linear;
+  font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	text-transform: capitalize;
+}
+.one .submenu {
+  display: none;
+  background: #FFFFFF;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+	border-radius: 8px;
+}
+.one ul li:hover .submenu {
+  display: block;
+}
+.two ul,.three ul {
+  	background: #FFFFFF;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+	border-radius: 8px;
+}
+.dropdown-results {
+	margin-left: 47px;
+}
+.two .submenu {
+  visibility: hidden;
+}
+.two ul li:hover .submenu,.three ul li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.three .submenu {
+  visibility: hidden;
+  opacity: 0;
+  background: #BAD78B;
+}
+
+.submenu li a {
+  border-bottom: 1px solid rgba(255,255,255,.3);
+
+}
+
+.results-dropdown,.results-view {
+	margin-right: 13px;
+}
+
+.results-vw {
+	background: #FFFFFF;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+	border-radius: 8px;
+	padding: 11px 12px;
+}
+
