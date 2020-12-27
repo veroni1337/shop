@@ -565,14 +565,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
 ul {
   list-style: none; 
   margin: 0;
@@ -659,5 +651,129 @@ ul {
 	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
 	border-radius: 8px;
 	padding: 11px 12px;
+}
+
+.catalog-card {
+	margin-top: 28px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 740px;
+}
+
+.catalog-touch-card {
+	width: 355px;
+	margin-right: 30px;
+	margin-bottom: 28px;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+	border-radius: 8px;
+
+}
+
+.catalog-touch-card:nth-child(2n) {
+	margin-right: 0px;
+}
+
+
+.touch-card-img {
+	max-width: 100%;
+	/*padding: 31px 75px 43px 75px;*/
+	margin: auto;
+	display: flex;
+
+}
+
+.catalog-touch-card-img {
+	padding-top: 31px;
+	padding-bottom: 34px;
+}
+
+.catalog-touch-card-rating {
+	background: #6F64F8;
+	border-radius: 3px;
+	padding: 6px 10.5px 7px 10px;
+	width: 60px;
+	height: 30px;
+}
+
+.catalog-touch-card-rating-text {
+	display: flex;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+}
+
+.catalog-touch-card-rating-icon {
+	margin-left: 8.5px;
+}
+
+.catalog-touch-card-rading-price {
+	padding: 0px 19px 16px 23px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.catalog-touch-card-price-text {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #2C2C2C;
+}
+
+.touch-card-description {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+	color: #2C2C2C;
+}
+
+.catalog-touch-card-text {
+	margin: 0px 59px 22px 22px;
+}
+
+.catalog-touch-card-button {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.touch-card-like {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	background: #EDEDED;
+	border-radius: 0px 0px 0px 8px;
+	border: none;
+	width: 177.5px;
+	padding-top: 17px;
+	padding-bottom: 15.5px;
+}
+
+.touch-card-like-text {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+	color: #2C2C2C;
+	margin-left: 8px;
+}
+
+.touch-card-add-to-cart {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	background: #6F64F8;
+	border-radius: 0px 0px 8px 0px;
+	border: none;
+	width: 177.5px;
+	padding-top: 15px;
+	padding-bottom: 15.5px;
+}
+
+.add-to-cart-text {
+	color: #fff;
 }
 
