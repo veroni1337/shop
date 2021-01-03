@@ -777,3 +777,70 @@ ul {
 	color: #fff;
 }
 
+.pagination {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.pagination-icon-bg {
+	width: 40px;
+	height: 40px;
+	background: #EDEDED;
+	color: #000;
+    flex-shrink: 0;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ 
+}
+
+.switch {
+	width: auto;
+	height: 40px;
+	background: #EDEDED;
+	color: #000;
+    flex-shrink: 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    
+   	padding: 8px 14px 11px 19px;
+}
+
+.switch-link {
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 4.4px;
+	color: #2C2C2C;
+	margin-right: 25px;
+
+}
+
+.switch-link:last-child {
+	margin-right: 0;
+}
+
+.switch-link-active {
+	background: #6F64F8;
+	width: 40px;
+	height: 40px;
+	color: #fff;
+    flex-shrink: 0;
+    border-radius: 50%;
+    font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 4.4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
